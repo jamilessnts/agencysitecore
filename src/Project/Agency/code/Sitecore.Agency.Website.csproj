@@ -149,6 +149,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\bootstrap.css" />
     <Content Include="favicon.ico" />
     <Content Include="App_Config\Include\Project\z.Agency.DevSettings.config" />
     <Content Include="App_Config\Include\Project\Agency.Website.config" />
@@ -168,6 +169,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="assets\js\" />
     <Folder Include="Views\Website\Sublayouts\" />
   </ItemGroup>
   <ItemGroup>

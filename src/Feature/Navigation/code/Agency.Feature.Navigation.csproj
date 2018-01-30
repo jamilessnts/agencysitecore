@@ -95,7 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Feature\Foundation.Assets.Serialization.config">
+    <Content Include="App_Config\Include\Feature\Feature.Navigation.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
     <None Include="Properties\PublishProfiles\Local.pubxml" />

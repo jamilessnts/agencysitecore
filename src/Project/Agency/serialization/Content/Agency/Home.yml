@@ -1,9 +1,13 @@
 ﻿---
-ID: "1e0e2dd5-db23-440e-b695-0e20d78252e5"
-Parent: "2b813371-a821-49e7-a907-151546063297"
-Template: "88ed0183-db50-4c57-b12c-72e1a8d72112"
+ID: "ba9c7f30-9f0e-4cc3-9cdf-3a3dc088e14b"
+Parent: "da5edcb8-7d8b-4fa5-9ce5-868a185c9f69"
+Template: "d41fa022-67ef-48f9-aa9c-f1954222e466"
 Path: /sitecore/content/Agency/Home
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -11,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180109T183431Z
+      Value: 20180130T184745Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

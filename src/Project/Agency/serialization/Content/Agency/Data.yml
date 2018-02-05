@@ -1,13 +1,9 @@
 ﻿---
-ID: "229bb59c-4a2c-4549-8b42-61cc27d9824e"
-Parent: "2b813371-a821-49e7-a907-151546063297"
+ID: "5a2e8a5d-26f9-4e4e-af13-59108cf77f98"
+Parent: "da5edcb8-7d8b-4fa5-9ce5-868a185c9f69"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/content/Agency/Data
 DB: master
-SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Applications/32x32/folder_red.png
 Languages:
 - Language: en
   Versions:
@@ -15,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180120T132527Z
+      Value: 20180130T184324Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

@@ -12,6 +12,7 @@ var yargs = require("yargs").argv;
 var unicorn = require("./scripts/unicorn.js");
 var habitat = require("./scripts/habitat.js");
 var helix = require("./scripts/helix.js");
+var del = require('del');
 
 var config;
 if (fs.existsSync('./gulp-config.js.user')) {
@@ -66,6 +67,7 @@ gulp.task("02-Nuget-Restore", function (callback) {
 gulp.task("03-Publish-All-Projects", function (callback) {
   return runSequence(
     "Build-Solution",
+    "Clean-Helix-Includes",
     "Publish-Foundation-Projects",
     "Publish-Feature-Projects",
     "Publish-Project-Projects", callback);
@@ -202,6 +204,14 @@ gulp.task("Build-Solution", function () {
             Platform: config.buildPlatform
           }
         }));
+});
+
+gulp.task("Clean-Helix-Includes", function() {
+  return del([
+    config.websiteRoot + '/App_Config/Include/Project/**/*',
+    config.websiteRoot + '/App_Config/Include/Feature/**/*',
+    config.websiteRoot + '/App_Config/Include/Foundation/**/*'
+  ], {force: true});
 });
 
 gulp.task("Publish-Foundation-Projects", function () {

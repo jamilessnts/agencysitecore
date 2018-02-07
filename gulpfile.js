@@ -323,7 +323,7 @@ gulp.task("Auto-Publish-Views", function () {
 gulp.task("Auto-Publish-Assemblies", function () {
   var root = "./src";
   var roots = [root + "/**/code/**/bin"];
-  var files = "/**/Sitecore.{Feature,Foundation,Habitat}.*.{dll,pdb}";;
+  var files = "/**/{Sitecore,Agency}.{Feature,Foundation,Habitat}.*.{dll,pdb}";;
   var destination = config.websiteRoot + "/bin/";
   gulp.src(roots, { base: root }).pipe(
     foreach(function (stream, rootFolder) {

@@ -26,6 +26,3 @@ Languages:
       Hint: Banner
       Value: |
         <image mediaid="{8D5DCAD3-E678-462E-9FB3-FA8E3040D395}" />
-    - ID: "e121b10b-fc30-43b6-9bd2-eb512d43d2c3"
-      Hint: CTA Label
-      Value: Page Header CTA Label

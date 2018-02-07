@@ -22,6 +22,3 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
-    - ID: "e121b10b-fc30-43b6-9bd2-eb512d43d2c3"
-      Hint: CTA Label
-      Value: $name CTA Label

@@ -1,0 +1,21 @@
+﻿---
+ID: "2b6e408d-da4e-4eed-93a8-a14e900f9366"
+Parent: "f9ef0992-34a0-4492-a372-8c2634bad986"
+Template: "f9ef0992-34a0-4492-a372-8c2634bad986"
+Path: /sitecore/templates/Feature/Services/ServiceItem/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180801T134906Z
+    - ID: "27018674-94d8-4b15-9409-c69c1080b16d"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

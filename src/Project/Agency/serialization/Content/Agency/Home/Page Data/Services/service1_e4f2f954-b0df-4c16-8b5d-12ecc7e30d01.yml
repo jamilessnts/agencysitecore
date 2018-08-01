@@ -1,0 +1,17 @@
+﻿---
+ID: "e4f2f954-b0df-4c16-8b5d-12ecc7e30d01"
+Parent: "133adf7a-19a0-457d-9ca3-e250c936e367"
+Template: "f9ef0992-34a0-4492-a372-8c2634bad986"
+Path: /sitecore/content/Agency/Home/Page Data/Services/service1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14a600be-adec-497d-810f-1ebe3cf1d3ff"
+      Hint: Title
+      Value: service1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180801T164313Z
